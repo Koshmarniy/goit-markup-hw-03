@@ -1,0 +1,248 @@
+:root {
+    /* Fonts */
+    --main-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+
+    /* Text colors */
+    --main-txt-cl: #212121;
+    --light-txt-cl: #ffffff;
+    --accent-txt-cl: #2196F3;
+    --grey-txt-cl: #757575;
+
+    /* Background colors */
+    --main-bg-cl:#2F303A;
+
+    /* Others */
+    
+}
+/* Навігація для обох сторінок */
+.page {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+    font-family: Roboto, sans-serif;
+}
+
+.page  .logo-title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+}
+
+.page .accent {
+    color: #2196F3;
+}
+.header .link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+    color: currentColor;
+}
+
+.header .link:hover,
+.header .link:focus {
+    color: var(--accent-txt-cl);
+}
+
+
+.header .link-info {
+    color: var(--grey-txt-cl);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+.header .link-info:hover,
+.header .link-info:focus {
+    color: var(--accent-txt-cl);
+}
+
+.header .list {
+    list-style: none;
+}
+.link.active {
+    color: var(--accent-txt-cl);
+}
+
+/* Наші особливості */
+
+.section-main {
+    background: var(--main-bg-cl);
+    width: 1600px;
+}
+
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: calc(60 / 44);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--light-txt-cl);
+}
+
+.section-main .btn {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.06em;
+    color: var(--light-txt-cl);
+    background: #2196F3;
+    cursor: pointer;
+}
+
+
+.section-features .features-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-txt-cl);
+}
+.features-title-description {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--grey-txt-cl);
+}
+.activity .activity-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+
+}
+.section-features .list-iteam {
+    list-style: none;
+}
+/* Чим ми займаємось */
+.activity .activity-list-iteam {
+    list-style: none;
+}
+/* Наша команда */
+.team .team-list-item {
+    list-style: none;
+}
+
+
+.team {
+    background: #F5F4FA;
+}
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+.team .title-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl);
+}
+.team-list-title {
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    letter-spacing: 0.03em;
+    color: var(--grey-txt-cl);
+}
+
+/* Контактна адреса */
+
+.footer {
+    background: var(--main-bg-cl);
+    width: 1600px;
+}
+.footer  .logo-title {
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+}
+.footer .accent-1{
+    color: #2196F3;;
+}
+
+.footer .accent-2 {
+    color: #ffffff;
+}
+.address-title {
+    
+    font-family: var(--main-font) ;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--light-txt-cl);
+    font-style: normal;
+}
+
+
+.footer .link {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.footer .list-iteam {
+    list-style: none; 
+}
+
+
+
+
+
+
+
+/* Портфоліо */
+
+.work-iteam {
+    width: 125px;
+    height: 38px;
+    background: #F5F4FA;
+}
+.work .work-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26 / 16);
+    letter-spacing: 0.03em;
+    color: var(--main-txt-cl)
+
+}
+.work-iteam {
+    list-style: none;
+}
+.work-btn:hover,
+.work-btn:focus {
+    color: var(--light-txt-cl);
+    background-color: var(--accent-txt-cl);
+}
+
+.ourprojects-iteam {
+    list-style: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: calc(36 / 18);
+    color: var(--main-txt-cl);
+}
+.section-title-description {
+    font-size: 16px;
+    line-height: calc(30 / 16);
+    letter-spacing: 0.03em;
+    color: var(--grey-txt-cl);
+}
