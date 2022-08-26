@@ -51,7 +51,7 @@
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="">
             <a class="link-info" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -61,10 +61,12 @@
     <main>
       <!--Що ми робимо-->
       <section class="work">
-        <h1 class="work-title">НАШЕ ПОРТФОЛІО</h1>
+        <div class="container">
+        <h1 class="work-title visually-hidden">НАШЕ ПОРТФОЛІО</h1>
+        
         <ul class="list-work">
           <li class="work-iteam">
-            <button class="work-btn" type="button">Усі</button>
+            <button class="work-btn btn" type="button">Усі</button>
           </li>
           <li class="work-iteam">
             <button class="work-btn" type="button">Веб-сайти</button>
@@ -79,7 +81,8 @@
             <button class="work-btn" type="button">Маркетинг</button>
           </li>
         </ul>
-
+        </div>
+        <div class="container">
         <ul class="list-ourprojects">
           <li class="ourprojects-iteam">
             <img
@@ -91,6 +94,7 @@
             />
             <h2 class="section-title">Технокряк</h2>
             <p class="section-title-description">Веб-сайт</p>
+            
           </li>
           <li class="ourprojects-iteam">
             <img
@@ -189,12 +193,13 @@
             <p class="section-title-description">Додаток</p>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
     <footer class="footer">
       <!--Контактна адреса-->
-      <div class="container-footer">
+      <div class="container">
         <a class="logo-title" href="index.html">
           <span class="accent-1">Web</span><span class="accent-2">Studio</span>
         </a>
