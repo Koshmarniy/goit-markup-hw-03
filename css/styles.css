@@ -53,6 +53,7 @@ img {
 .nav-list {
     display: flex;
     gap: 50px;
+
 }
 
 .contacts-list {
@@ -217,7 +218,6 @@ img {
 }
 .activity {
     margin-bottom: 94px;
-    outline: 5px solid tomato;
 }
 .activity-list {
     display: flex;
@@ -248,6 +248,7 @@ img {
 /* Наша команда */
 .team .team-list-item {
     list-style: none;
+    width: 270px;
 }
 
 
@@ -346,20 +347,24 @@ img {
 }
 .header-container {
     border-bottom: 1px solid var(--accent-txt-cl);
-    margin-bottom: 94px;
+    margin-bottom: 25px;
+    border-bottom: transparent;
 }
 .work-btn {
     margin-bottom: 34px;
-
+    border-radius: 4px;
+    min-height: 38px;
+    border-color: transparent;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26 / 16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
+    
 }
 .work-btn .btn {
-    focu
+
 }
 
 .list-work {
