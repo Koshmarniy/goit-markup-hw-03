@@ -269,18 +269,27 @@ img {
     display: flex;
     gap: 30px;
 }
+
+
 .team .title-name {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--main-txt-cl);
+    width: 270px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 .team-list-title {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
     color: var(--grey-txt-cl);
+    width: 270px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 /* Контактна адреса */
@@ -348,12 +357,13 @@ img {
 .header-container {
     border-bottom: 1px solid var(--accent-txt-cl);
     margin-bottom: 25px;
-    border-bottom: transparent;
+
 }
 .work-btn {
-    margin-bottom: 34px;
+    
     border-radius: 4px;
-    min-height: 38px;
+    min-width: 73px;
+    padding: 6px 22px;
     border-color: transparent;
     font-family: inherit;
     font-weight: 500;
@@ -363,8 +373,8 @@ img {
     color: var(--main-txt-cl);
     
 }
-.work-btn .btn {
-
+.work .container {
+    margin-bottom: 50px;
 }
 
 .list-work {
