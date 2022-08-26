@@ -355,9 +355,12 @@ img {
     
 }
 .header-container {
-    border-bottom: 1px solid var(--accent-txt-cl);
-    margin-bottom: 25px;
 
+    padding-bottom: 94px;
+
+}
+.header-container {
+    
 }
 .work-btn {
     
