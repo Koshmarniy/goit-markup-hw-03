@@ -199,8 +199,11 @@ img {
     overflow: hidden;
   }
   
-.list-iteam {
+.main-list-iteam {
     width: 270px;
+    list-style: none; 
+    margin-bottom: 0px;
+    
 }
 .features-title {
     margin-bottom: 10px;
@@ -302,10 +305,11 @@ img {
     padding-bottom: 60px;
     
 }
-.footer  .logo-title {
+.footer .logo-title {
     margin-right: 0px;
     padding-top: 0px;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 0px;
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -318,6 +322,10 @@ img {
 .footer .accent-2 {
     color: #ffffff;
 }
+.address {
+    font-style: normal;
+}
+
 .address-title {
     margin-bottom: 9px;
     font-family: var(--main-font) ;
@@ -340,7 +348,7 @@ img {
     text-decoration: none;
 }
 
-.footer .list-iteam {
+.list-address {
     list-style: none; 
 }
 
@@ -413,6 +421,7 @@ img {
 }
 
 .section-title {
+    margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
     line-height: calc(36 / 18);
